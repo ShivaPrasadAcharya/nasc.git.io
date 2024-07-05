@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>staff college training</title>
+    <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 0;
+      margin: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: blue;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn1 {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: grey;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+       .btn2 {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: indigo;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+    } 
+    .btn:hover, .btn1:hover, .btn2:hover {
+      background-color: green;
+    }
+
+    #developedby {
+      font-style: italic;
+      color: brown;
+      text-align: right;
+    }
+
+    #search::placeholder {
+      color: #999;
+    }
+
+  .fixedtop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contacts {
+    margin-top: 60px;
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #search {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: yellow;
+  }
+  .comment-box-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+        }
+        #comment {
+            width: 100%;
+            box-sizing: border-box;
+            padding-right: 40px; /* Space for the arrow button */
+        }
+        .send-arrow {
+            position:absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 24px;
+            color: #007BFF;
+        }
+  
+        .link-container {
+      position: fixed;
+      bottom: 90%;
+      left: 0;
+      right: 0;
+      text-align: bottom;
+    }
+
+    /* Style for the links */
+    .link-container a {
+      color: red;
+      text-decoration: none;
+      display: inline-block;
+      margin-right: 20px;
+      font-size: normal;
+    }
+    </style>
+</head>
+<body>
+    <div class="fixedtop">
+        <center><b><u> OPMD_2081( Asar)-Participants</u></b> </center>
+ 
+              <input type="text" id="search" onkeyup="searchFunction()" placeholder="अन्वेषिका.....">
+       </div><br><br><br><br><br>
+     <div id="contacts">
+      <table>
+        <thead>
+                      <tr>
+            <th>Name</th>
+            <th>Contact No.</th>
+          </tr>
+        </thead>
+        <tbody>
+     
+            <tr> <td>Shri Achyut Shrestha<br>achyutshrestha121@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779860784954">9860784954<br><button class="btn" onclick="call('+9779860784954')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Amit Dhungana<br>mtdhungana33@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779841068883">9841068883<br><button class="btn" onclick="call('+9779841068883')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Anuj Ghimire<br>anujghimire314@gmail.com<br>Admin<br></td> <td><a href="tel:+9779851143827">9851143827<br><button class="btn" onclick="call('+9779851143827')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Basanta Raj Padyaya<br>basantpadhyay@gmail.com<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779849199531">9849199531<br><button class="btn" onclick="call('+9779849199531')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Bibek Rijal<br>bibekrijal98@gmail.com<br>Foreign Affairs/FA<br></td> <td><a href="tel:+9779840221113">9840221113<br><button class="btn" onclick="call('+9779840221113')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Binod Kumar Koirala<br>bkoiralag@gmail.com<br>Admin/Account<br></td> <td><a href="tel:+9779844249188">9844249188<br><button class="btn" onclick="call('+9779844249188')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Bishnu Prasad Paneru<br>bishnupaneru17@gmail.com<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779856049734">9856049734<br><button class="btn" onclick="call('+9779856049734')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Chhabilal Paudel<br>6blalpdl@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779851296633">9851296633<br><button class="btn" onclick="call('+9779851296633')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Ghanashyam Bhusal<br>bhusalghanshyam123@gmil.com<br>Admin/GA<br></td> <td><a href="tel:+9779851160930">9851160930<br><button class="btn" onclick="call('+9779851160930')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Gita Sapkota<br>sapkotag33@gmail.com<br>Judicial/Kanoon<br></td> <td><a href="tel:+9779840059922">9840059922<br><button class="btn" onclick="call('+9779840059922')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Gokarna Khanal<br>kgokarna1@gmail.com<br>Admin/Audit<br></td> <td><a href="tel:+9779851206770">9851206770<br><button class="btn" onclick="call('+9779851206770')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Harichandra Joshi<br>chandraharijoshi@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779860391236">9860391236<br><button class="btn" onclick="call('+9779860391236')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Harish Chandra Singh Thakuri<br>harryonatural2010@gmail.com<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779843668659">9843668659<br><button class="btn" onclick="call('+9779843668659')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Jagadish Parajuli<br>jparajuli74@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779861190383">9861190383<br><button class="btn" onclick="call('+9779861190383')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Jeetendra Adhikari<br>jeetendradhikari@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779856090491">9856090491<br><button class="btn" onclick="call('+9779856090491')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Junu Hamal Dhakal<br>junu.jumla@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779858320583">9858320583<br><button class="btn" onclick="call('+9779858320583')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Khagendra Prasad Aryal<br>aryalkp006@gmail.com<br>Admin/Account<br></td> <td><a href="tel:+9779851147169">9851147169<br><button class="btn" onclick="call('+9779851147169')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Khagendra Saud<br>khagendrasaud.gov@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779868268479">9868268479<br><button class="btn" onclick="call('+9779868268479')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Kiran Chandra Subedi<br>kirancsubedi@guaitany<br>Admin/Account<br></td> <td><a href="tel:+9779840600888">9840600888<br><button class="btn" onclick="call('+9779840600888')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Kiran Paudel<br>pbtkiran19@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779851205473">9851205473<br><button class="btn" onclick="call('+9779851205473')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Madan Prasad Shiwakoti<br>mdnshiwakoti@gmail.com<br>Judicial/Kanoon<br></td> <td><a href="tel:+9779845237764">9845237764<br><button class="btn" onclick="call('+9779845237764')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Madhu Krishna Paudyal<br>paudyalmadhu@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779847084924">9847084924<br><button class="btn" onclick="call('+9779847084924')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Madhusudhan Paudel Domase<br>msp20098@gmail.com<br>Admin/Account<br></td> <td><a href="tel:+9779851030323">9851030323<br><button class="btn" onclick="call('+9779851030323')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Manoj Kumar B.K<br>manubishwakarma@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779849011891">9849011891<br><button class="btn" onclick="call('+9779849011891')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Manoj Kumar Rajak<br>manojrajak977@gmail 9771<br>Admin/Revenue<br></td> <td><a href="tel:+9779845229981">9845229981<br><button class="btn" onclick="call('+9779845229981')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Mausam Dhungel<br>mausamdhungel1992@gmail.com<br>Admin/Revenue<br></td> <td><a href="tel:+9779862750174">9862750174<br><button class="btn" onclick="call('+9779862750174')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Nanda Prasad Bhattarai<br>npbhattarai2046@gmail.com<br>Admin/Audit<br></td> <td><a href="tel:+9779856017466">9856017466<br><button class="btn" onclick="call('+9779856017466')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Narayan Prasad Dhakal<br>naran.naan@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779856000857">9856000857<br><button class="btn" onclick="call('+9779856000857')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Navin Kumar Yadav<br>navinkr.yadav82@gmail.com<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779849501567">9849501567<br><button class="btn" onclick="call('+9779849501567')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Prakash Pokharel<br>pokharel.pr@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779851122022">9851122022<br><button class="btn" onclick="call('+9779851122022')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Prem Raj Pokhrel<br>pokhrelprem@yahoo.com<br>Admin/Revenue<br></td> <td><a href="tel:+9779858023622">9858023622<br><button class="btn" onclick="call('+9779858023622')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Rakshya Gnyawali<br>rakshyagnyawali77@gmail.com<br>Judicial/Sarkari Okil<br></td> <td><a href="tel:+9779843310290">9843310290<br><button class="btn" onclick="call('+9779843310290')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Roshan Pun<br>rosepun@gmail.com<br>Admin/Account<br></td> <td><a href="tel:+9779849788389">9849788389<br><button class="btn" onclick="call('+9779849788389')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Shanti B.K<br>shanti.wdo1@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779845287756">9845287756<br><button class="btn" onclick="call('+9779845287756')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Shekhar Kumar Rokaya<br>shekhar.rokaya@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779849107879">9849107879<br><button class="btn" onclick="call('+9779849107879')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Shiva Lamsal<br>shivalamsalabhi@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779862384075">9862384075<br><button class="btn" onclick="call('+9779862384075')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Shiva Prasad Acharya<br>spacharya43@gmail.com<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779849667879">9849667879<br><button class="btn" onclick="call('+9779849667879')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Srijana Gautam<br>srijanagautam21@gmail.<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779851233002">9851233002<br><button class="btn" onclick="call('+9779851233002')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Sweta Bhattarai<br>bhattarai.shweta123@gmail.com<br>Judicial/Nyaya<br></td> <td><a href="tel:+9779849655528">9849655528<br><button class="btn" onclick="call('+9779849655528')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Tara Nath Paneru<br>panerutaranath@gmail.com<br>Admin/GA<br></td> <td><a href="tel:+9779848521896">9848521896<br><button class="btn" onclick="call('+9779848521896')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Tilak Prasad Chapagain<br>chapagaintilak@gmail.com<br>Admin/Account<br></td> <td><a href="tel:+9779846183277">9846183277<br><button class="btn" onclick="call('+9779846183277')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Tul Bahadur Khadka<br>kc.dnarb@gmail.com<br>Judicial/Sarkari Okil<br></td> <td><a href="tel:+9779848069059">9848069059<br><button class="btn" onclick="call('+9779848069059')">Call</button></a></td> </tr>
+            
+            <tr> <td>Shri Yaka Raj Chaulagain<br>yakarajchaulagain@gmail.com<br>Judicial/Sarkari Okil<br></td> <td><a href="tel:+9779858066979">9858066979<br><button class="btn" onclick="call('+9779858066979')">Call</button></a></td> </tr>
+              
+        
+
+        </tbody>
+    </table>
+    
+    <p><i>Special thanks to Sahara Aryal for providing the essential information that was crucial to this task.<i></p>
+       
+
+        
+    <script>
+      function searchFunction() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("search");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("contacts");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              td = tr[i].getElementsByTagName("td")[1];
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+      }
+    //to make content not to pass over fixed top on scrolling//
+    
+        window.addEventListener("scroll", function() {
+          var fixedTop = document.querySelector(".fixedtop");
+          var contacts = document.querySelector("#contacts");
+          if (window.pageYOffset >= fixedTop.offsetHeight) {
+            contacts.style.marginTop = fixedTop.offsetHeight + "px";
+          } else {
+            contacts.style.marginTop = "20px";
+          }
+        });
+    
+        window.addEventListener("scroll", function() {
+        var fixedTop = document.querySelector(".fixedtop");
+        var contacts = document.querySelector("#contacts");
+        if (window.pageYOffset >= fixedTop.offsetHeight) {
+          contacts.style.marginTop = fixedTop.offsetHeight + "px";
+        } else {
+          contacts.style.marginTop = "60px";
+        }
+      });
+          
+     
+    </script>
+    </body>
+    <footer>
+        <center><b>-भवतु सब्ब मङ्गलम्-</b> </center>
+        <p id="developedby"><u><b>Developed By:</b></u><br> शिवप्रसाद आचार्य
+         <br> २०८१, असार<br>
+        </p>
+      </footer>
+    </html>
